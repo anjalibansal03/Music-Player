@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rhythm - My favourite Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./images/logo.png" alt="Rhythm">Rhythm</li>            
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tum Hi Ho</span>
+                    <span class="songlistplay"><span class="timestamp">04:21 <i id="0"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Wakka Wakka</span>
+                    <span class="songlistplay"><span class="timestamp">03:22 <i id="1"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tera Pyar</span>
+                    <span class="songlistplay"><span class="timestamp">03:10 <i id="2"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">New Frontier</span>
+                    <span class="songlistplay"><span class="timestamp">03:17 <i id="3"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Floating Garden</span>
+                    <span class="songlistplay"><span class="timestamp">04:15 <i id="4"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Original Song</span>
+                    <span class="songlistplay"><span class="timestamp">03:21 <i id="5"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">SandBreaker</span>
+                    <span class="songlistplay"><span class="timestamp">04:00 <i id="6"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Chori Kiya Re Jiya</span>
+                    <span class="songlistplay"><span class="timestamp">04:46 <i id="7"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tum Se Hi</span>
+                    <span class="songlistplay"><span class="timestamp">05:21 <i id="8"
+                                class="fas songItemPlay fa-play"></i></span> </span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- Font Awesome Icons -->
+            <i class="fas fa-backward" id="previous"></i> <!-- Backward -->
+            <i class="fas fa-play" id="masterPlay"></i> <!-- Play -->
+            <i class="fas fa-forward" id="next"></i> <!-- Forward -->
+        </div>
+        <div class="songInfo">
+            <img src="./images/dancing-pengu.gif" height="78px" width="78px" alt="" id="gif"><span id="masterSongName">Tum Hi Ho</span>
+            <input type="range" id="volumeBar" min="0" max="1" step="0.1">
+        </div>
+    </div>
+    <!-- <div>
+        <input type="range" id="volumeBar" min="0" max="1" step="0.1">
+    </div> -->
+    <script src="script.js"></script>
+</body>
+</html>

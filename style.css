@@ -1,0 +1,134 @@
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 70px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(./images/girlpic.png);
+    background-repeat: no-repeat;
+    /* stops repeating */
+    background-size: contain;
+    background-position: right;
+}
+
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 8px 8px;
+}
+
+.songItemContainer {
+    margin-top: 40px;
+
+}
+
+.songItem {
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    width: 70%;
+}
+
+.songItem img {
+    width: 38px;
+    margin: 0 15px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity .4s ease-in;
+}
+/* 
+#volumeBar{
+    width: 120px;
+    height: 5px;    
+    background: #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer; 
+} */
+
